@@ -5,5 +5,4 @@ using UnityEngine;
 public class GameManger : MonoBehaviour
 {
     public GameObject WinPage, MazePage, MainMenuPage;
-
 }

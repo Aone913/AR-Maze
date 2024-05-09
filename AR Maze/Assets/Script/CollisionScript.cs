@@ -14,6 +14,7 @@ public class CollisionScript : MonoBehaviour
     private void OnEnable()
     {
         WinPage = GameObject.Find("mng").GetComponent<GameManger>().WinPage;
+        MazePage = GameObject.Find("mng").GetComponent<GameManger>().MazePage;
     }
 
     private void OnTriggerEnter(Collider other )
@@ -24,7 +25,7 @@ public class CollisionScript : MonoBehaviour
             hit = true;
             print("HIT");
             WinPage.gameObject.SetActive(true);
-
+            MazePage.gameObject.SetActive(false);
         }
     }
 }

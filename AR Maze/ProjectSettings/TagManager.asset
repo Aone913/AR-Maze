@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ball
+  - DefaultFace
+  - RightFace
+  - LeftFace
+  - BackFace
   layers:
   - Default
   - TransparentFX
